@@ -1,0 +1,16 @@
+{
+  "name": "Bodadmin Dashboard",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "react-scripts --openssl-legacy-provider start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "bootstrap-vue": "^2.23.1",
+    "jquery": "^3.6.1",
+    "nuxt": "^2.13.3"
+  }
+}
