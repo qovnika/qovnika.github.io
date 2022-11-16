@@ -60,9 +60,19 @@
                 class="radio"> </b-form-radio>
             </div>
             <div class="container">
-              <span class="radio-label">Enterprise License</span>
+              <span class="radio-label">Premium</span>
               <b-form-radio v-model="selected" :aria-describedby="ariaDescribedby" name="some-radios"
-                value="Enterprise License" class="radio"> </b-form-radio>
+                value="Premium" class="radio"> </b-form-radio>
+            </div>
+            <div class="container">
+              <span class="radio-label">Enterprise Silver</span>
+              <b-form-radio v-model="selected" :aria-describedby="ariaDescribedby" name="some-radios"
+                value="Enterprise Silver" class="radio"> </b-form-radio>
+            </div>
+            <div class="container">
+              <span class="radio-label">Enterprise Gold</span>
+              <b-form-radio v-model="selected" :aria-describedby="ariaDescribedby" name="some-radios"
+                value="Enterprise Gold" class="radio"> </b-form-radio>
             </div>
           </b-form-group>
 
