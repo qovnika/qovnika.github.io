@@ -2,6 +2,12 @@ html, body, form, .signup-container, .signup-signup, .signup-login
 {
 	max-width:100%;
 	overflow-x: hidden;
+  font-family: 'Inter';
+}
+
+a
+{
+  text-decoration: none;
 }
 
 body
@@ -192,6 +198,7 @@ form.signup-form
   justify-content: flex-start;
   background-color: transparent;
 }
+
 .signup-text28 {
   top: 2px;
   left: 32px;
@@ -207,6 +214,7 @@ form.signup-form
   font-stretch: normal;
   text-decoration: none;
 }
+
 .signup-b-o-d-a-d-m-i-n-l-o-g-o {
   top: 0px;
   left: 0px;
