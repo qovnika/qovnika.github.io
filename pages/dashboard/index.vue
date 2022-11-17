@@ -1,83 +1,8 @@
 <template>
   <div>
-    <b-navbar toggleable type="dark" variant="dark">
-      <div class="row" style="padding:0.5rem 0px;">
-        <div class="col-md-3">
-          <b-navbar-brand href="#">
-            <b-navbar-toggle target="navbar-toggle-collapse">
-              <template #default="{ expanded }">
-                <b-icon v-if="expanded" icon="list"></b-icon>
-                <b-icon v-else icon="list"></b-icon>
-              </template>
-            </b-navbar-toggle>&nbsp;
-            <b-icon icon="grid" style="margin-left:20px;color:#FFCA00;"></b-icon> Dashboard
-          </b-navbar-brand>
-
-          <b-collapse id="navbar-toggle-collapse" is-nav>
-            <div class="bodadmin-logo">
-              <span class="signup-text28"><span>BodAdmin</span></span>
-              <div class="signup-b-o-d-a-d-m-i-n-l-o-g-o">
-                <div class="signup-logo">
-                  <div class="signup-group1882">
-                    <img src="~/assets/vectors/left-vector.svg" alt="Vector9913" class="signup-vector" />
-                    <img src="~/assets/vector9913-e9nq.svg" alt="Vector9913" class="signup-vector1" />
-                    <img src="~/assets/vectors/right-vector.svg" alt="Vector9913" class="signup-vector2" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <b-navbar-toggle target="navbar-toggle-collapse" class="closer">
-              <template #default="{ expanded }">
-                <b-icon icon="x"></b-icon>
-              </template>
-            </b-navbar-toggle>
-            <div>
-              <div class="dashboard-menu">
-                <b-icon icon="grid" style="color:#FFCA00;"></b-icon> Dashboard
-              </div>
-            </div><br />
-            <b-navbar-nav class="ml-auto" style="margin:auto;width:80%;">
-              <b-nav-item href="#">
-                <b-icon icon="gear-fill"></b-icon> Manage Enterprise
-              </b-nav-item>
-              <hr style="color:grey;" />
-              <b-nav-item href="#">
-                <b-icon icon="question-circle-fill"></b-icon> Help
-              </b-nav-item>
-              <b-nav-item href="#"><span style="color:#E0775D;">
-                  <b-icon icon="box-arrow-right"></b-icon> Logout
-                </span></b-nav-item>
-            </b-navbar-nav>
-          </b-collapse>
-        </div>
-        <div class="col-md-6"></div>
-        <div class="col-md-3">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-9">
-              <div class="row">
-                <div class="col-md-4">
-                  <b-icon icon="bell-fill"
-                    style="color:white;font-size:1.5rem;vertical-align: middle;padding:0;margin:0;"></b-icon>
-                  <b-icon icon="dot"
-                    style="color:red;font-size:larger;position:absolute;top:5px;right:205px;display:flex;"></b-icon>
-                </div>
-                <div class="col-md-4">
-                  <b-badge variant="light" class="role">Superadmin</b-badge>
-                </div>
-                <div class="col-md-4">
-                  <div class="user-initials">CS</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </b-navbar>
-
+    <DashboardTopMenu/>
     <main>
-      <header>
+      <header class="dash-header">
         <h2>Enterprise Dashboard</h2>
         <p>Setup and manage portfolios, their admins and their respective portfolio companies.</p>
       </header>
@@ -107,9 +32,10 @@
                               <template #button-content>
                                 <b-icon icon="three-dots-vertical" style="color:black;"></b-icon>
                               </template>
-                              <b-dropdown-item href="#">Action</b-dropdown-item>
-                              <b-dropdown-item href="#">Another action</b-dropdown-item>
-                              <b-dropdown-item href="#">Something else here...</b-dropdown-item>
+                              <b-dropdown-item href="#" @click="$bvModal.show('rename-portfolio-modal')"><b-icon icon="pencil-fill"></b-icon> Rename</b-dropdown-item>
+                              <b-dropdown-item href="#" @click="$bvModal.show('manage-portfolio-modal')"><b-icon icon="folder-fill"></b-icon> Manage Portfolio</b-dropdown-item>
+                              <b-dropdown-item href="#" @click="$bvModal.show('manage-members-modal')"><b-icon icon="person-fill"></b-icon> Manage Members</b-dropdown-item>
+                              <b-dropdown-item href="#" @click="$bvModal.show('delete-portfolio-modal')"><b-icon icon="archive-fill"></b-icon> Delete</b-dropdown-item>
                             </b-dropdown>
                           </div>
                         </div>
@@ -146,7 +72,7 @@
               <div class="row">
                 <div class="col-md-9" style="padding: 5% 8%;">
                   <h4 style="font-size: 12px;">CHECKLIST</h4>
-                  <p style="color: #997900;font-size: 14px;">Finish setting up your enterprise</p>
+                  <p style="color: #997900;font-size: 12px;">Finish setting up your enterprise</p>
                   <b-form-group label="" v-slot="{ ariaDescribedby }">
                     <b-form-checkbox-group id="checkbox-group-2" v-model="selected" :aria-describedby="ariaDescribedby"
                       name="checklist" class="aside-form">
@@ -171,8 +97,8 @@
               </div>
               <div class="mt-3">
                 <h4 style="font-size: 12px;color:#7A797A;">ENTERPRISE ADMIN</h4>
-                <div class="user-initials" style="display: inline-block;padding: 2% 0;">OE</div> <span
-                  style="color: #232123;font-size:15px;">Oyindamola Ehiwere</span>
+                <div class="user-initials" style="display: inline-block;padding: 2% 0;">OE</div>
+                <span style="color: #232123;font-size:15px;">Oyindamola Ehiwere</span>
               </div>
               <div class="mt-3">
                 <h4 style="font-size: 12px;color:#7A797A;">PORTFOLIO COMPANIES</h4>
@@ -214,6 +140,8 @@
         </div>
       </div>
     </b-modal>
+    <DashboardRenamePortfolioModal/>
+    <DashboardDeletePortfolioModal/>
   </div>
 </template>
 

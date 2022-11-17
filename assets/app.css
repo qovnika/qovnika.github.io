@@ -2,7 +2,7 @@ html, body, form, .signup-container, .signup-signup, .signup-login
 {
 	max-width:100%;
 	overflow-x: hidden;
-  font-family: 'Inter';
+  font-family: 'Inter', "Larsseit", "Nunito", "Noto Sans CJK HK", "sans-serif";
 }
 
 a
@@ -26,7 +26,7 @@ label
 .form-group, .input-group, .input-group input[type='password']
 {
 	width: 100%;
-	display: block;
+	display: inline-block;
 }
 
 .signup-signup {
@@ -310,4 +310,46 @@ form.signup-form
     color: #333; /* old IE */
     background-color: #333;
     border-radius: 5px;
+}
+
+.input-group-prepend .input-group-prepend
+{
+  top: 30px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+  position: relative;
+  display: inline-block;
+}
+
+.input-group .form-control
+{
+  width: 100%;
+	display: inline-block;
+  padding-left: 30px;
+  margin-left: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback)
+{
+  margin-left: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.card-header-left
+{
+  text-align: left;
+  color: #646364;
+  font-size: 12px;
+}
+
+.card-header-right
+{
+  text-align: right;
+  color: #646364;
+  font-size: 12px;
 }

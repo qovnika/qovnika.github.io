@@ -18,6 +18,8 @@ const _6dae1ea0 = () => interopDefault(import('../pages/select-license-type/inde
 const _0d77f9a5 = () => interopDefault(import('../pages/signup/index.vue' /* webpackChunkName: "pages/signup/index" */))
 const _3b4bcf56 = () => interopDefault(import('../pages/verify-email/index.vue' /* webpackChunkName: "pages/verify-email/index" */))
 const _a1829a02 = () => interopDefault(import('../pages/company-info/main.js' /* webpackChunkName: "pages/company-info/main" */))
+const _7eaa9e1a = () => interopDefault(import('../pages/dashboard/portfolio-1/index.vue' /* webpackChunkName: "pages/dashboard/portfolio-1/index" */))
+const _138f50db = () => interopDefault(import('../pages/dashboard/portfolio-2/index.vue' /* webpackChunkName: "pages/dashboard/portfolio-2/index" */))
 const _b3a4e91a = () => interopDefault(import('../pages/forgot-email/main.js' /* webpackChunkName: "pages/forgot-email/main" */))
 const _b63d783c = () => interopDefault(import('../pages/forgot-password/main.js' /* webpackChunkName: "pages/forgot-password/main" */))
 const _75632345 = () => interopDefault(import('../pages/invite-users/main.js' /* webpackChunkName: "pages/invite-users/main" */))
@@ -97,6 +99,14 @@ export const routerOptions = {
     path: "/company-info/main",
     component: _a1829a02,
     name: "company-info-main"
+  }, {
+    path: "/dashboard/portfolio-1",
+    component: _7eaa9e1a,
+    name: "dashboard-portfolio-1"
+  }, {
+    path: "/dashboard/portfolio-2",
+    component: _138f50db,
+    name: "dashboard-portfolio-2"
   }, {
     path: "/forgot-email/main",
     component: _b3a4e91a,

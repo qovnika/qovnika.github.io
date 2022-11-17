@@ -3,150 +3,189 @@
     "name": "company-info",
     "path": "/company-info",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/company-info/index.vue",
-    "chunkName": "pages/company-info/index"
+    "chunkName": "pages/company-info/index",
+    "_name": "_884f58ea"
   },
   {
     "name": "dashboard",
     "path": "/dashboard",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/dashboard/index.vue",
-    "chunkName": "pages/dashboard/index"
+    "chunkName": "pages/dashboard/index",
+    "_name": "_3dd00806"
   },
   {
     "name": "forgot-email",
     "path": "/forgot-email",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/forgot-email/index.vue",
-    "chunkName": "pages/forgot-email/index"
+    "chunkName": "pages/forgot-email/index",
+    "_name": "_9b1a4202"
   },
   {
     "name": "forgot-password",
     "path": "/forgot-password",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/forgot-password/index.vue",
-    "chunkName": "pages/forgot-password/index"
+    "chunkName": "pages/forgot-password/index",
+    "_name": "_59cb90a4"
   },
   {
     "name": "invite-users",
     "path": "/invite-users",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/invite-users/index.vue",
-    "chunkName": "pages/invite-users/index"
+    "chunkName": "pages/invite-users/index",
+    "_name": "_eabc6b5e"
   },
   {
     "name": "loading",
     "path": "/loading",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/loading/index.vue",
-    "chunkName": "pages/loading/index"
+    "chunkName": "pages/loading/index",
+    "_name": "_c71f87b6"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/login/index.vue",
-    "chunkName": "pages/login/index"
+    "chunkName": "pages/login/index",
+    "_name": "_7a609192"
   },
   {
     "name": "login-password",
     "path": "/login-password",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/login-password/index.vue",
-    "chunkName": "pages/login-password/index"
+    "chunkName": "pages/login-password/index",
+    "_name": "_442e9368"
   },
   {
     "name": "reset-password",
     "path": "/reset-password",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/reset-password/index.vue",
-    "chunkName": "pages/reset-password/index"
+    "chunkName": "pages/reset-password/index",
+    "_name": "_69ae02a6"
   },
   {
     "name": "reset-password-success",
     "path": "/reset-password-success",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/reset-password-success/index.vue",
-    "chunkName": "pages/reset-password-success/index"
+    "chunkName": "pages/reset-password-success/index",
+    "_name": "_59035f5c"
   },
   {
     "name": "select-license-type",
     "path": "/select-license-type",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/select-license-type/index.vue",
-    "chunkName": "pages/select-license-type/index"
+    "chunkName": "pages/select-license-type/index",
+    "_name": "_6dae1ea0"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/signup/index.vue",
-    "chunkName": "pages/signup/index"
+    "chunkName": "pages/signup/index",
+    "_name": "_0d77f9a5"
   },
   {
     "name": "verify-email",
     "path": "/verify-email",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/verify-email/index.vue",
-    "chunkName": "pages/verify-email/index"
+    "chunkName": "pages/verify-email/index",
+    "_name": "_3b4bcf56"
   },
   {
     "name": "company-info-main",
     "path": "/company-info/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/company-info/main.js",
-    "chunkName": "pages/company-info/main"
+    "chunkName": "pages/company-info/main",
+    "_name": "_a1829a02"
+  },
+  {
+    "name": "dashboard-portfolio-1",
+    "path": "/dashboard/portfolio-1",
+    "component": "/var/www/Enterprise-Dashboard-Web/pages/dashboard/portfolio-1/index.vue",
+    "chunkName": "pages/dashboard/portfolio-1/index",
+    "_name": "_7eaa9e1a"
+  },
+  {
+    "name": "dashboard-portfolio-2",
+    "path": "/dashboard/portfolio-2",
+    "component": "/var/www/Enterprise-Dashboard-Web/pages/dashboard/portfolio-2/index.vue",
+    "chunkName": "pages/dashboard/portfolio-2/index",
+    "_name": "_138f50db"
   },
   {
     "name": "forgot-email-main",
     "path": "/forgot-email/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/forgot-email/main.js",
-    "chunkName": "pages/forgot-email/main"
+    "chunkName": "pages/forgot-email/main",
+    "_name": "_b3a4e91a"
   },
   {
     "name": "forgot-password-main",
     "path": "/forgot-password/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/forgot-password/main.js",
-    "chunkName": "pages/forgot-password/main"
+    "chunkName": "pages/forgot-password/main",
+    "_name": "_b63d783c"
   },
   {
     "name": "invite-users-main",
     "path": "/invite-users/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/invite-users/main.js",
-    "chunkName": "pages/invite-users/main"
+    "chunkName": "pages/invite-users/main",
+    "_name": "_75632345"
   },
   {
     "name": "login-password-main",
     "path": "/login-password/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/login-password/main.js",
-    "chunkName": "pages/login-password/main"
+    "chunkName": "pages/login-password/main",
+    "_name": "_f04a5c00"
   },
   {
     "name": "login-main",
     "path": "/login/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/login/main.js",
-    "chunkName": "pages/login/main"
+    "chunkName": "pages/login/main",
+    "_name": "_36067274"
   },
   {
     "name": "reset-password-success-main",
     "path": "/reset-password-success/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/reset-password-success/main.js",
-    "chunkName": "pages/reset-password-success/main"
+    "chunkName": "pages/reset-password-success/main",
+    "_name": "_1ea701e0"
   },
   {
     "name": "reset-password-main",
     "path": "/reset-password/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/reset-password/main.js",
-    "chunkName": "pages/reset-password/main"
+    "chunkName": "pages/reset-password/main",
+    "_name": "_715b6cda"
   },
   {
     "name": "select-license-type-main",
     "path": "/select-license-type/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/select-license-type/main.js",
-    "chunkName": "pages/select-license-type/main"
+    "chunkName": "pages/select-license-type/main",
+    "_name": "_b6738158"
   },
   {
     "name": "signup-main",
     "path": "/signup/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/signup/main.js",
-    "chunkName": "pages/signup/main"
+    "chunkName": "pages/signup/main",
+    "_name": "_5e35d0ce"
   },
   {
     "name": "verify-email-main",
     "path": "/verify-email/main",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/verify-email/main.js",
-    "chunkName": "pages/verify-email/main"
+    "chunkName": "pages/verify-email/main",
+    "_name": "_e7c1bb6e"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/Enterprise-Dashboard-Web/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_73599f38"
   }
 ]

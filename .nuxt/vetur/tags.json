@@ -1,5 +1,20 @@
 {
   "BootstrapVue": {
     "description": "Auto imported from components/bootstrap-vue.js"
+  },
+  "DashboardDeletePortfolioModal": {
+    "description": "Auto imported from components/Dashboard/DeletePortfolioModal.vue"
+  },
+  "DashboardManageMembersModal": {
+    "description": "Auto imported from components/Dashboard/ManageMembersModal.vue"
+  },
+  "DashboardManagePortfolioModal": {
+    "description": "Auto imported from components/Dashboard/ManagePortfolioModal.vue"
+  },
+  "DashboardRenamePortfolioModal": {
+    "description": "Auto imported from components/Dashboard/RenamePortfolioModal.vue"
+  },
+  "DashboardTopMenu": {
+    "description": "Auto imported from components/Dashboard/TopMenu.vue"
   }
 }

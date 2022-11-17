@@ -47,8 +47,8 @@ html, body, #__nuxt, #__layout, #__layout:first-child
     position: absolute;
     width: 89px;
     height: 20px;
-    right: 92px;
-    top: 18px;
+    right: 82px;
+    top: 13px;
     
     /* grey/20 */
     
@@ -100,13 +100,13 @@ html, body, #__nuxt, #__layout, #__layout:first-child
     background: #383637;
 }
 
-.close, .modal-content header, .modal-content footer
+.loader-modal .close, .loader-modal .modal-content header, .loader-modal .modal-content footer
 
 {
     display:none;
 }
 
-.modal-content
+.loader-modal .modal-content
 {
     background-color: transparent;
     border: 0px;
@@ -150,7 +150,6 @@ html, body, #__nuxt, #__layout, #__layout:first-child
     align-self: auto;
     font-style: Semi Bold;
     text-align: left;
-    font-family: Inter;
     font-weight: 700;
     line-height: 20px;
     font-stretch: normal;
@@ -183,7 +182,7 @@ main
     height: 90%;
 }
 
-header
+header.dash-header
 {
     height: 6%;
     background-image: url("~assets/dashboard/images/users.png");
@@ -197,7 +196,6 @@ header
 
 header h2
 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -206,7 +204,6 @@ header h2
 
 header p
 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -241,7 +238,6 @@ article
 
 .dash-head
 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -311,4 +307,155 @@ aside
     border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: #EDEDED;
+}
+
+header .close
+{
+    background-color: transparent !important;
+    border: 0;
+}
+
+.modal-title
+{
+    color:#383637;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.modal-subtitle
+{
+    font-size: 14px;
+    line-height: 20px;
+    color: #7A797A;
+}
+
+label
+{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #646364;
+}
+
+h5
+{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;  
+    color: #383637;
+}
+
+p i
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #646364;
+}
+.modal-content
+{
+    min-height:630px;
+}
+
+header.modal-header
+{
+    border-bottom: 0 !important;
+}
+
+footer.modal-footer
+{
+    border-top: 0 !important;
+}
+
+.second-column
+{
+    text-align: right;
+    color: #DB6345;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.custom-card .card header.card-header
+{
+    background-color: #646364;
+}
+
+.custom-card .card .card-body
+{
+    padding: 0 0;
+}
+
+.custom-card .card .card-body .table-responsive
+{
+    margin-bottom: 0;
+}
+
+.custom-card .card .card-body .table-responsive table tbody tr td
+{
+    height: 60px;
+    vertical-align: middle;
+}
+
+.custom-card .card .card-body .table-responsive table tbody tr td img
+{
+    width: 32px;
+    margin-bottom: 1%;
+}
+
+.signup-password #search.form-control
+{
+    background: #4E4D4D;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+#delete-portfolio-modal, #delete-portfolio-modal .modal-dialog, #delete-portfolio-modal .modal-content 
+{
+    min-height: 320px;
+    max-height: 460px;
+    text-align: center;
+}
+
+#delete-portfolio-modal .modal-body
+{
+    max-height: 160px;
+    color: #7A797A;
+    padding-top: 0%;
+}
+
+#delete-portfolio-modal .modal-body .topper
+{
+    background-image: url('~assets/dashboard/images/danger-info-bg.png');
+}
+
+#delete-portfolio-modal .modal-body .below
+{
+    background-image: url('~assets/dashboard/images/danger-info.png');
+    color: white;
+    font-size: 1.5rem;
+}
+
+#delete-portfolio-modal .modal-footer
+{
+    max-height: 250px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#delete-portfolio-modal .modal-footer .btn-danger
+{
+    margin-left: 20px;
+}
+
+#delete-portfolio-modal .modal-footer .btn-secondary
+{
+    margin-right: 20px;
+}
+
+.btn-danger
+{
+    background-color: #DB6345;
 }
