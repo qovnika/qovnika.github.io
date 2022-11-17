@@ -63,9 +63,9 @@
                             <h5 style="color:#646364;font-size: 12px;">5 Companies</h5>
                             <b-card border-variant="light" header-bg-variant="transparent"
                                 header-html="<div class='row'><div class='col card-header-left'>Company</div><div class='col card-header-left'>Portfolio Users</div></div>"
-                                header-border-variant="light" class="text-center portfolio-card">
+                                header-border-variant="light" class="text-center portfolio-card mt-5">
                                 <b-card-text>
-                                    <b-table-simple responsive>
+                                    <b-table-simple responsive hover>
                                         <b-tbody>
                                             <b-tr>
                                                 <b-td class="text-left" style="text-align:left;">
@@ -75,11 +75,11 @@
                                                 <b-td class="text-left">12</b-td>
                                                 <b-td class="text-right">
                                                 </b-td>
-                                                <b-td class="text-right">
+                                                <b-td class="text-left">
                                                     <b-dropdown variant="link" toggle-class="text-decoration-none"
                                                         no-caret>
                                                         <template #button-content>
-                                                            <b-icon icon="three-dots-vertical" style="color:black;">
+                                                            <b-icon icon="three-dots-vertical">
                                                             </b-icon>
                                                         </template>
                                                         <b-dropdown-item href="#"
@@ -105,11 +105,11 @@
                                                 <b-td class="text-left">21</b-td>
                                                 <b-td class="text-right">
                                                 </b-td>
-                                                <b-td class="text-right">
+                                                <b-td class="text-left">
                                                     <b-dropdown variant="link" toggle-class="text-decoration-none"
                                                         no-caret>
                                                         <template #button-content>
-                                                            <b-icon icon="three-dots-vertical" style="color:black;">
+                                                            <b-icon icon="three-dots-vertical">
                                                             </b-icon>
                                                         </template>
                                                         <b-dropdown-item href="#"
@@ -133,14 +133,14 @@
                                                         alt="Logo of General" /> Dangote Cement
                                                 </b-td>
                                                 <b-td class="text-left">23</b-td>
-                                                <b-td class="text-right">
-                                                    <b-icon icon="slash-circle"></b-icon>
+                                                <b-td class="text-left">
+                                                    <img src="~/assets/dashboard/images/blocked.png" alt="Deactivated" style="width:20%;"/>
                                                 </b-td>
-                                                <b-td class="text-right">
+                                                <b-td class="text-left">
                                                     <b-dropdown variant="link" toggle-class="text-decoration-none"
                                                         no-caret>
                                                         <template #button-content>
-                                                            <b-icon icon="three-dots-vertical" style="color:black;">
+                                                            <b-icon icon="three-dots-vertical">
                                                             </b-icon>
                                                         </template>
                                                         <b-dropdown-item href="#"
@@ -166,11 +166,11 @@
                                                 <b-td class="text-left">32</b-td>
                                                 <b-td class="text-right">
                                                 </b-td>
-                                                <b-td class="text-right">
+                                                <b-td class="text-left">
                                                     <b-dropdown variant="link" toggle-class="text-decoration-none"
                                                         no-caret>
                                                         <template #button-content>
-                                                            <b-icon icon="three-dots-vertical" style="color:black;">
+                                                            <b-icon icon="three-dots-vertical">
                                                             </b-icon>
                                                         </template>
                                                         <b-dropdown-item href="#"
@@ -196,7 +196,7 @@
                                                 <b-td class="text-left">14</b-td>
                                                 <b-td class="text-right">
                                                 </b-td>
-                                                <b-td class="text-right">
+                                                <b-td class="text-left">
                                                     <b-dropdown variant="link" toggle-class="text-decoration-none"
                                                         no-caret>
                                                         <template #button-content>
@@ -227,14 +227,13 @@
                 </div>
                 <div class="col-md-4">
                     <aside>
-                        <div class="row">
+                        <div class="row" style="background-color: #FBFBFB;">
                             <div class="col ml-5" style="padding:10px 0px 0px 50px;">
                                 <span style="color: #7A797A;font-size: 12px;">MEMBERS</span>
                             </div>
                             <div class="col text-right">
-                                <b-button variant="light" class="btn-lg mr-5">
-                                    <b-icon icon="gear"></b-icon> <span
-                                        style="color: #3E4E6A;font-size: 15px;">Manage</span>
+                                <b-button variant="light" class="btn-lg mr-5" style="color: #3E4E6A;font-size: 15px;">
+                                    <b-icon icon="gear-fill"></b-icon> <span>Manage</span>
                                 </b-button>
                             </div>
                         </div>
@@ -253,7 +252,7 @@
                                                 <span style="color: #383637;font-size:14px;">Mariam Adejumo</span>
                                             </b-td>
                                             <b-td class="text-right">
-                                                <p style="margin-right: 20px;color: #3E4E6A;font-size:14px;">Admin</p>
+                                                <p style="margin-right: 10px;color: #3E4E6A;font-size:14px;">Admin</p>
                                             </b-td>
                                         </b-tr>
                                         <b-tr>
