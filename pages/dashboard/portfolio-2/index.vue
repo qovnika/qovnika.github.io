@@ -30,7 +30,6 @@
                                 <b-icon icon="slash-circle"></b-icon> Deactivate
                             </b-dropdown-item>
                         </b-dropdown>
-
                     </div>
                 </div>
             </header>
@@ -42,7 +41,7 @@
                                 <div class="col-md-6">
                                     <div class="signup-password">
                                         <b-form-group id="input-group-5" label="" label-for="search-portfolio"
-                                            class="mt-3">
+                                            class="">
                                             <b-input-group class="mt-3" id="input-group-5">
                                                 <template #prepend>
                                                     <b-input-group-prepend>
@@ -55,7 +54,7 @@
                                         </b-form-group>
                                     </div>
                                 </div>
-                                <div class="col-md-6" style="text-align: right;padding-right:10%;padding-top: 50px;">
+                                <div class="col-md-6" style="text-align: right;padding-right:10%;padding-top: 35px;">
                                     <b-button variant="light"><i class="bi bi-folder-fill"></i> Manage Portfolio
                                     </b-button>
                                 </div>

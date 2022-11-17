@@ -5,6 +5,11 @@ html, body, form, .signup-container, .signup-signup, .signup-login
   font-family: 'Inter', "Larsseit", "Nunito", "Noto Sans CJK HK", "sans-serif";
 }
 
+aside
+{
+  border: 1px solid #F2F2F2;
+}
+
 a
 {
   text-decoration: none;
